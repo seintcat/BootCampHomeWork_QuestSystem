@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1071e01e35fea3844bba1223703902f4, type: 3}
+  m_Name: task
+  m_EditorClassIdentifier: 
+  id: KillMushiroom
+  description: Kill Mushiroom
+  successCount: 5
+  initialSuccessValue: {fileID: 0}
+  RecieveValue: 1
+  action: {fileID: 11400000, guid: 500f0df800f5d6643b9f7ce946dbd5e4, type: 2}
+  targets:
+  - {fileID: 11400000, guid: 97a5fe937961ee147a47feb9c2f9f7d4, type: 2}
+  category: {fileID: 11400000, guid: 3f1e0b6fe4502ad45851ae3a923e156e, type: 2}
